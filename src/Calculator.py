@@ -1,9 +1,13 @@
 from CsvReader import CsvReader
 
 
-def mean(data):
+    def mean(data):
     mean = data
     return mean
+
+    def addition(a, b):
+        c = a + b
+        return c
 
     def subtraction(a, b):
         a = int(a)
