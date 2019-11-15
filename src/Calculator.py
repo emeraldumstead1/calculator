@@ -1,14 +1,25 @@
-def addition(a, b):
-    return a + b
+from CsvReader import CsvReader
+
+
+def mean(data):
+    mean = data
+    return mean
+
+    def subtraction(a, b):
+        a = int(a)
+        b = int(b)
+        c = b - a
+        return c
 
 class Calculator:
     result = 0
 
     def __init__(self):
-        x = 2 + 2
-        self.result = x;
         pass
 
-    def add(self, a, b):
-        self.result = a + b
-        return addition(a, b)
+    def subtract(self, a, b):
+        self.result = subtraction(a, b)
+        return self.result
+
+def mean(self):
+        mean(self.data)
